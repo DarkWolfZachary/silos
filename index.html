@@ -10,11 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-            <h1 class="anonymous-pro-bold title">THE SILOS</h1>
+            <h1 class="anonymous-pro-bold title hide-on-mobile">THE SILOS</h1>
             <!-- The video -->
-<video autoplay muted loop id="myVideo" autoplay="autoplay" preload="auto" muted="muted">
-    <source src="background.webm" type="video/mp4">
+<video class="hide-on-mobile" autoplay muted autoplay="autoplay" preload="auto" muted="muted">
+    <source src="background.mp4" type="video/mp4">
   </video>
+  <div class="mobile-container hide-on-desk">
+  <img src="mobile.png" class="mobile-banner">
+  <h1 class="anonymous-pro-bold title mobile-center">THE SILOS</h1>
+</div>
             <div class="videocover"></div>
     </body>
 </html>
