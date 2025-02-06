@@ -1,0 +1,38 @@
+/* Pallet: https://coolors.co/12130f-d1ac00-7c7c7c-f8f7f9-f17300 */
+
+body{
+    background-color: #12130fff;
+    margin: 0;
+    
+}
+
+.anonymous-pro-bold {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.title{
+color: white;
+text-align: center;
+font-size: 100px;
+}
+
+
+
+    video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    max-width: 100%;
+    z-index:-100;  
+    filter: brightness(10%);
+} 
+
+.videocover{
+    top: 20px;
+    width: 100%;
+    background-color: #12130fff;
+    height: 600px;
+}
