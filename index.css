@@ -75,3 +75,38 @@ z-index: 3;
 }
 
   }
+  
+
+.quote {
+  color:white;
+  font-size: 2.5vw;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  width: 45%;
+  margin-top: 18vw;
+  margin-left: 30px;
+}
+
+.quote-credit{
+  color:gray;
+  font-size: 1vw;
+  font-family: "Noto Serif", serif;
+  margin-left: 30%;
+}
+
+.material-symbols-outlined {
+  z-index: 5;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.pause{
+  color:white;
+  position: fixed;
+  margin-left: 95%;
+  margin-top: 9vw;
+  size-adjust: 40px;
+}
